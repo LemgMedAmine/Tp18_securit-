@@ -12,7 +12,7 @@ firebase = pyrebase.initialize_app(config)
 auth = firebase.auth()
 
 email = "TK757567@pwnsec.xyz"
-password = "C7_dotpsC7t7f_._In_i.IdttpaofoaIIdIdnndIfC"   # Remplace par le mot de passe affiché par Frida
+password = "METTRE_LA_CLE_TROUVER"   # Remplace par le mot de passe affiché par Frida
 
 user = auth.sign_in_with_email_and_password(email, password)
 print("Connexion reussie. Token obtenu.")
